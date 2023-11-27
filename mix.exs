@@ -55,8 +55,8 @@ defmodule BoomSlackNotifier.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:boom_notifier, "~> 0.8.0"},
-      {:httpoison, "~> 1.5"},
+      {:boom_notifier, git: "https://github.com/wyeworks/boom.git", branch: "master"},
+      {:httpoison, "~> 2.1.0"},
       {:jason, "~> 1.2"},
 
       # Test dependencies
